@@ -6,7 +6,7 @@
   <link href="https://gyq.ink/atom.xml" rel="self"/>
   
   <link href="https://gyq.ink/"/>
-  <updated>2020-09-19T04:54:10.376Z</updated>
+  <updated>2020-09-29T03:34:30.546Z</updated>
   <id>https://gyq.ink/</id>
   
   <author>
@@ -21,14 +21,10 @@
     <link href="https://gyq.ink/2018/10/14/Markdown%E8%AF%AD%E6%B3%95%E6%8B%BE%E9%81%97/"/>
     <id>https://gyq.ink/2018/10/14/Markdown%E8%AF%AD%E6%B3%95%E6%8B%BE%E9%81%97/</id>
     <published>2018-10-14T00:41:59.000Z</published>
-    <updated>2020-09-19T04:54:10.376Z</updated>
+    <updated>2020-09-29T03:34:30.546Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt;有三种格式：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;= 一级标题&lt;/li&gt;
-&lt;li&gt;- 二级标题&lt;/li&gt;
-&lt;li&gt;n个# 对应n级标题</summary>
+    <summary type="html">&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;</summary>
     
     
     

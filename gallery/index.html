@@ -22,21 +22,25 @@
     var CONFIG = {"hostname":"gyq.ink","root":"/","scheme":"Gemini","version":"8.0.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}};
   </script>
 
-  <meta name="description" content="the quick brown fox jumps over a lazy dog">
+  <meta name="description" content=".gallery-page {     margin-top: 0px; } .img-list, .gallery-list {     display: flex;     flex-direction: row;     flex-wrap: nowrap;     align-items: flex-start; } .img-column {     display: flex">
 <meta property="og:type" content="website">
-<meta property="og:title" content="schedule">
-<meta property="og:url" content="https://gyq.ink/schedule/index.html">
+<meta property="og:title" content="相册">
+<meta property="og:url" content="https://gyq.ink/gallery/index.html">
 <meta property="og:site_name" content="在那摇滚的故乡">
-<meta property="og:description" content="the quick brown fox jumps over a lazy dog">
+<meta property="og:description" content=".gallery-page {     margin-top: 0px; } .img-list, .gallery-list {     display: flex;     flex-direction: row;     flex-wrap: nowrap;     align-items: flex-start; } .img-column {     display: flex">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2015-09-12T04:17:58.000Z">
-<meta property="article:modified_time" content="2020-09-19T04:54:10.389Z">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover01.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover02.jpg">
+<meta property="og:image" content="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover04.jpg">
+<meta property="article:published_time" content="2018-10-24T20:20:09.000Z">
+<meta property="article:modified_time" content="2020-09-29T03:50:41.053Z">
 <meta property="article:author" content="yann">
 <meta property="article:tag" content="csharp,unity,assetbundle,shader,数据结构,Android,iOS">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover01.jpg">
 
 
-<link rel="canonical" href="https://gyq.ink/schedule/">
+<link rel="canonical" href="https://gyq.ink/gallery/">
 
 
 <script data-pjax class="page-configurations">
@@ -49,7 +53,7 @@
   };
 </script>
 
-  <title>schedule | 在那摇滚的故乡
+  <title>相册 | 在那摇滚的故乡
 </title>
   
 
@@ -266,7 +270,7 @@
     <div class="post-block" lang="zh-CN">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">schedule
+<h1 class="post-title" itemprop="name headline">相册
 </h1>
 
 <div class="post-meta-container">
@@ -280,13 +284,76 @@
       
       
       <div class="post-body">
-          <div class="event-list">
-</div>
-<script data-pjax>
-  CONFIG.calendar = {"calendar_id":"<required>","api_key":"<required>","orderBy":"startTime","showLocation":false,"offsetMax":72,"offsetMin":4,"showDeleted":false,"singleEvents":true,"maxResults":250};
-</script><script data-pjax src="/js/schedule.js"></script>
+          <style>
+    .gallery-page {
+    margin-top: 0px;
+}
+.img-list,
+.gallery-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+.img-column {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.img-column a,
+.gallery-column a {
+    border-bottom: 0px;
+}
+.gallery-item {
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+.gallery-item p {
+    margin: 0px auto -10px;
+    max-width: 50%;
+    text-align: center;
+    font-size: 15px;
+    color: $black-deep;
+    background: rgba(255,255,255,.3);
+    border-radius: 7px;
+    border: 1px solid $black-deep;
+    box-shadow: 0 8px 20px -8px rgba(0,0,0,.3);
+}
+.posts-expand .post-body .gallery-column a img {
+    height: 200px;
+    width: 250px;
+    object-fit: cover;
+}
+</style>
 
-        
+<center>.+†+.</center>
+<div class="gallery-page">
+    <div class="gallery-list">
+        <div class="gallery-column">
+            <div class="gallery-item">
+                <a href="default"><img src="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover01.jpg">
+                </a>
+                <p>- 默认相册 -</p>
+            </div>
+        </div>
+        <div class="gallery-column">
+            <div class="gallery-item">
+                <a href="once"><img src="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover02.jpg">
+                </a>
+                <p>- 曾经的你 -</p>
+            </div>
+        </div>
+        <div class="gallery-column">
+            <div class="gallery-item">
+                <a href="that"><img src="https://cdn.jsdelivr.net/gh/yanngu/cdn/img/album/cover/cover04.jpg">
+                </a>
+                <p>- 相信未来 -</p>
+            </div>
+        </div>
+    </div>
+</div>
+<center>.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.ｏ.+ﾟ♪ﾟ+.</center>
+
       </div>
       
       
