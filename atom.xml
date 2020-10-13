@@ -6,7 +6,7 @@
   <link href="https://gyq.ink/atom.xml" rel="self"/>
   
   <link href="https://gyq.ink/"/>
-  <updated>2020-10-09T11:04:54.783Z</updated>
+  <updated>2020-10-10T12:01:07.560Z</updated>
   <id>https://gyq.ink/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://gyq.ink/2020/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4iOS%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/"/>
     <id>https://gyq.ink/2020/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4iOS%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/</id>
     <published>2020-10-09T09:01:01.000Z</published>
-    <updated>2020-10-09T11:04:54.783Z</updated>
+    <updated>2020-10-10T12:01:07.560Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;App-Installation-failed-No-code-signature-found&quot;&gt;&lt;a href=&quot;#App-Installation-failed-No-code-signature-found&quot; class=&quot;headerlink&quot; title=&quot;App Installation failed  No code signature found&quot;&gt;&lt;/a&gt;App Installation failed  No code signature found&lt;/h2&gt;&lt;blockquote&gt;
@@ -40,7 +40,7 @@
     <link href="https://gyq.ink/2020/09/30/Ori-And-The-Will-of-the-Wisps-Switch-Analysis-Inside-An-Impossible-Port/"/>
     <id>https://gyq.ink/2020/09/30/Ori-And-The-Will-of-the-Wisps-Switch-Analysis-Inside-An-Impossible-Port/</id>
     <published>2020-09-29T16:24:38.000Z</published>
-    <updated>2020-09-30T11:10:27.730Z</updated>
+    <updated>2020-10-13T09:50:38.364Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -51,6 +51,27 @@
     
     
     <category term="油管搬运工" scheme="https://gyq.ink/tags/%E6%B2%B9%E7%AE%A1%E6%90%AC%E8%BF%90%E5%B7%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AssetBundle又见AssetBundle</title>
+    <link href="https://gyq.ink/2019/11/14/AssetBundle%E5%8F%88%E8%A7%81AssetBundle/"/>
+    <id>https://gyq.ink/2019/11/14/AssetBundle%E5%8F%88%E8%A7%81AssetBundle/</id>
+    <published>2019-11-14T13:20:59.000Z</published>
+    <updated>2020-10-13T09:55:27.369Z</updated>
+    
+    
+    <summary type="html">有东西被加密了，请输入密码查看</summary>
+    
+    
+    
+    <category term="性能优化" scheme="https://gyq.ink/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/"/>
+    
+    <category term="资源管理" scheme="https://gyq.ink/categories/%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96/%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/"/>
+    
+    
+    <category term="AssetBundle,资源管理" scheme="https://gyq.ink/tags/AssetBundle-%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/"/>
     
   </entry>
   
