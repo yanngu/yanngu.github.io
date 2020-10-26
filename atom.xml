@@ -6,7 +6,7 @@
   <link href="https://gyq.ink/atom.xml" rel="self"/>
   
   <link href="https://gyq.ink/"/>
-  <updated>2020-10-10T12:01:07.560Z</updated>
+  <updated>2020-10-26T04:46:03.176Z</updated>
   <id>https://gyq.ink/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Tassel</title>
+    <link href="https://gyq.ink/2020/10/24/Tassel/"/>
+    <id>https://gyq.ink/2020/10/24/Tassel/</id>
+    <published>2020-10-23T16:22:34.000Z</published>
+    <updated>2020-10-26T04:46:03.176Z</updated>
+    
+    
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;发现一首很好听的曲子&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=56946450&amp;bvid=BV1ox411R7aU&amp;cid=99462642&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; &lt;/iframe&gt;</summary>
+    
+    
+    
+    
+    <category term="视频搬运工" scheme="https://gyq.ink/tags/%E8%A7%86%E9%A2%91%E6%90%AC%E8%BF%90%E5%B7%A5/"/>
+    
+  </entry>
   
   <entry>
     <title>那些年iOS上架所踩的坑</title>
@@ -40,7 +60,7 @@
     <link href="https://gyq.ink/2020/09/30/Ori-And-The-Will-of-the-Wisps-Switch-Analysis-Inside-An-Impossible-Port/"/>
     <id>https://gyq.ink/2020/09/30/Ori-And-The-Will-of-the-Wisps-Switch-Analysis-Inside-An-Impossible-Port/</id>
     <published>2020-09-29T16:24:38.000Z</published>
-    <updated>2020-10-13T09:50:38.364Z</updated>
+    <updated>2020-10-26T04:07:38.630Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -50,7 +70,7 @@
     
     
     
-    <category term="油管搬运工" scheme="https://gyq.ink/tags/%E6%B2%B9%E7%AE%A1%E6%90%AC%E8%BF%90%E5%B7%A5/"/>
+    <category term="视频搬运工" scheme="https://gyq.ink/tags/%E8%A7%86%E9%A2%91%E6%90%AC%E8%BF%90%E5%B7%A5/"/>
     
   </entry>
   
@@ -124,7 +144,7 @@
     <link href="https://gyq.ink/2018/09/14/%E7%BA%A2%E9%BB%91%E6%A0%91%E7%90%86%E8%AE%BA%E7%A0%94%E7%A9%B6/"/>
     <id>https://gyq.ink/2018/09/14/%E7%BA%A2%E9%BB%91%E6%A0%91%E7%90%86%E8%AE%BA%E7%A0%94%E7%A9%B6/</id>
     <published>2018-09-14T00:41:59.000Z</published>
-    <updated>2020-10-08T15:10:03.857Z</updated>
+    <updated>2020-10-26T04:45:53.427Z</updated>
     
     
     <summary type="html">有东西被加密了，请输入密码查看</summary>
