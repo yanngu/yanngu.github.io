@@ -37,25 +37,6 @@
   </entry>
   
   <entry>
-    <title>那些年iOS上架所踩的坑</title>
-    <link href="https://gyq.ink/2020/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4iOS%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/"/>
-    <id>https://gyq.ink/2020/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4iOS%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/</id>
-    <published>2020-10-09T09:01:01.000Z</published>
-    <updated>2020-10-30T10:54:48.875Z</updated>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;App-Installation-failed-No-code-signature-found&quot;&gt;&lt;a href=&quot;#App-Installation-failed-No-code-signature-found&quot; class=&quot;headerlink&quot; title=&quot;App Installation failed  No code signature found&quot;&gt;&lt;/a&gt;App Installation failed  No code signature found&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;更新完Xcode之后，真机测试报错如上&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;解决方法：&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;sudo chmod -R 777 &amp;#x2F;Applications&amp;#x2F;Xcode.app&amp;#x2F;Contents&amp;#x2F;Developer&amp;#x2F;Platforms&amp;#x2F;iPhoneOS.platform&amp;#x2F;Developer&amp;#x2F;SDKs&amp;#x2F;iPhoneOS.sdk&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Ori And The Will of the Wisps Switch Analysis: Inside An &#39;Impossible&#39; Port</title>
     <link href="https://gyq.ink/2020/09/30/Ori-And-The-Will-of-the-Wisps-Switch-Analysis-Inside-An-Impossible-Port/"/>
     <id>https://gyq.ink/2020/09/30/Ori-And-The-Will-of-the-Wisps-Switch-Analysis-Inside-An-Impossible-Port/</id>
@@ -92,6 +73,44 @@
     
     
     <category term="AssetBundle,资源管理" scheme="https://gyq.ink/tags/AssetBundle-%E8%B5%84%E6%BA%90%E7%AE%A1%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那些年iOS上架所踩的坑</title>
+    <link href="https://gyq.ink/2019/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4iOS%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/"/>
+    <id>https://gyq.ink/2019/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4iOS%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/</id>
+    <published>2019-10-09T09:01:01.000Z</published>
+    <updated>2020-11-11T04:36:49.882Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;App-Installation-failed-No-code-signature-found&quot;&gt;&lt;a href=&quot;#App-Installation-failed-No-code-signature-found&quot; class=&quot;headerlink&quot; title=&quot;App Installation failed  No code signature found&quot;&gt;&lt;/a&gt;App Installation failed  No code signature found&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;更新完Xcode之后，真机测试报错如上&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;解决方法：&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;sudo chmod -R 777 &amp;#x2F;Applications&amp;#x2F;Xcode.app&amp;#x2F;Contents&amp;#x2F;Developer&amp;#x2F;Platforms&amp;#x2F;iPhoneOS.platform&amp;#x2F;Developer&amp;#x2F;SDKs&amp;#x2F;iPhoneOS.sdk&lt;span aria-hidden=&quot;true&quot; class=&quot;line-numbers-rows&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;</summary>
+    
+    
+    
+    
+    <category term="SDK" scheme="https://gyq.ink/tags/SDK/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那些年Android上架所踩的坑</title>
+    <link href="https://gyq.ink/2019/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4Android%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/"/>
+    <id>https://gyq.ink/2019/10/09/%E9%82%A3%E4%BA%9B%E5%B9%B4Android%E4%B8%8A%E6%9E%B6%E6%89%80%E8%B8%A9%E7%9A%84%E5%9D%91/</id>
+    <published>2019-10-09T04:35:56.000Z</published>
+    <updated>2020-11-11T04:40:59.210Z</updated>
+    
+    
+    <summary type="html">&lt;h3 id=&quot;GooglePlayConsole中的Base64去哪里了？&quot;&gt;&lt;a href=&quot;#GooglePlayConsole中的Base64去哪里了？&quot; class=&quot;headerlink&quot; title=&quot;GooglePlayConsole中的Base64去哪里了？&quot;&gt;&lt;/a&gt;GooglePlayConsole中的Base64去哪里了？&lt;/h3&gt;</summary>
+    
+    
+    
+    
+    <category term="SDK" scheme="https://gyq.ink/tags/SDK/"/>
     
   </entry>
   
