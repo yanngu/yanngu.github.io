@@ -40,7 +40,7 @@
 <meta property="og:description" content="GooglePlayConsole中的Base64Key去哪里了？">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2019-10-09T04:35:56.000Z">
-<meta property="article:modified_time" content="2020-11-12T06:42:22.324Z">
+<meta property="article:modified_time" content="2020-11-25T13:01:36.274Z">
 <meta property="article:author" content="yann">
 <meta property="article:tag" content="SDK">
 <meta name="twitter:card" content="summary">
@@ -197,7 +197,7 @@
 
       <!--noindex-->
       <section class="post-toc-wrap sidebar-panel">
-          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#GooglePlayConsole%E4%B8%AD%E7%9A%84Base64Key%E5%8E%BB%E5%93%AA%E9%87%8C%E4%BA%86%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">GooglePlayConsole中的Base64Key去哪里了？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95-Google-Play-%E7%BB%93%E7%AE%97%E6%9C%8D%E5%8A%A1"><span class="nav-number">2.</span> <span class="nav-text">测试 Google Play 结算服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%A5%E9%94%99-Unity-java-io-IOException-unexpected-end-of-stream-on-Connection-www-website-comlogin-80-proxy-DIRECT-hostAddress-255-0-128-16-cipherSuite-none-protocol-http-1-1-recycle-count-0"><span class="nav-number">3.</span> <span class="nav-text">报错 Unity: java.io.IOException: unexpected end of stream on Connection{www.website.comlogin:80, proxy&#x3D;DIRECT hostAddress&#x3D;255.0.128.16 cipherSuite&#x3D;none protocol&#x3D;http&#x2F;1.1} (recycle count&#x3D;0)</span></a></li></ol></div>
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#GooglePlayConsole%E4%B8%AD%E7%9A%84Base64Key%E5%8E%BB%E5%93%AA%E9%87%8C%E4%BA%86%EF%BC%9F"><span class="nav-number">1.</span> <span class="nav-text">GooglePlayConsole中的Base64Key去哪里了？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B5%8B%E8%AF%95-Google-Play-%E7%BB%93%E7%AE%97%E6%9C%8D%E5%8A%A1"><span class="nav-number">2.</span> <span class="nav-text">测试 Google Play 结算服务</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%A5%E9%94%99-Unity-java-io-IOException-unexpected-end-of-stream-on-Connection-www-website-comlogin-80-proxy-DIRECT-hostAddress-255-0-128-16-cipherSuite-none-protocol-http-1-1-recycle-count-0"><span class="nav-number">3.</span> <span class="nav-text">报错 Unity: java.io.IOException: unexpected end of stream on Connection{www.website.comlogin:80, proxy&#x3D;DIRECT hostAddress&#x3D;255.0.128.16 cipherSuite&#x3D;none protocol&#x3D;http&#x2F;1.1} (recycle count&#x3D;0)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8A%A5%E9%94%99-Libraries-using-reflection-such-as-annotation-processors-need-to-be-updated-manually-to-add-support-for-androidx"><span class="nav-number">4.</span> <span class="nav-text">报错 Libraries using reflection such as annotation processors need to be updated manually to add support for androidx.</span></a></li></ol></div>
       </section>
       <!--/noindex-->
 
@@ -603,6 +603,13 @@ if(canvas.getContext){
 <li>添加测试人员到“Play管理中心-许可测试”中【重要】</li>
 </ul>
 <h3 id="报错-Unity-java-io-IOException-unexpected-end-of-stream-on-Connection-www-website-comlogin-80-proxy-DIRECT-hostAddress-255-0-128-16-cipherSuite-none-protocol-http-1-1-recycle-count-0"><a href="#报错-Unity-java-io-IOException-unexpected-end-of-stream-on-Connection-www-website-comlogin-80-proxy-DIRECT-hostAddress-255-0-128-16-cipherSuite-none-protocol-http-1-1-recycle-count-0" class="headerlink" title="报错 Unity: java.io.IOException: unexpected end of stream on Connection{www.website.comlogin:80, proxy=DIRECT hostAddress=255.0.128.16 cipherSuite=none protocol=http/1.1} (recycle count=0)"></a>报错 Unity: java.io.IOException: unexpected end of stream on Connection{<a target="_blank" rel="noopener" href="http://www.website.comlogin/">www.website.comlogin:80</a>, proxy=DIRECT hostAddress=255.0.128.16 cipherSuite=none protocol=http/1.1} (recycle count=0)</h3><p>原因是域名不合法 comlogin 中间少了个/，属实坑人，拼接地址的额时候应该小心再小心。有空格，不合法的符号也会报这个错误。</p>
+<h3 id="报错-Libraries-using-reflection-such-as-annotation-processors-need-to-be-updated-manually-to-add-support-for-androidx"><a href="#报错-Libraries-using-reflection-such-as-annotation-processors-need-to-be-updated-manually-to-add-support-for-androidx" class="headerlink" title="报错 Libraries using reflection such as annotation processors need to be updated manually to add support for androidx."></a>报错 Libraries using reflection such as annotation processors need to be updated manually to add support for androidx.</h3><blockquote>
+<p>报错详情：The given artifact contains a string literal with a package reference ‘android.support.v4’ that cannot be safely rewritten. Libraries using reflection such as annotation processors need to be updated manually to add support for androidx.</p>
+</blockquote>
+<p>最近谷歌上架TargetLevel已经设置到29，但是对于国内的某些SDK还是停留在26.假如在AS工程的gradle.properties中已经设置了</p>
+<pre class="line-numbers language-none"><code class="language-none">android.useAndroidX&#x3D;true
+android.enableJetifier&#x3D;true<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+<p>并且再创建一个新的针对26的Module就会如上错误。</p>
 
     </div>
 
